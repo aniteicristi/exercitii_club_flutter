@@ -31,10 +31,9 @@ class Statistics extends StatelessWidget {
               Text('Overall score: $score'),
             ],
           ),
-          Container(
+          Image.network(
+            'https://freepngimg.com/thumb/cat/1-2-cat-png-2.png',
             height: 100,
-            child: Image.network(
-                'https://freepngimg.com/thumb/cat/1-2-cat-png-2.png'),
           ),
         ],
       ),
